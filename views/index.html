@@ -1,0 +1,41 @@
+<% include ./partials/head.html %>
+    <div class="padding main-div">
+        <h1>File Metadata Microservice</h1>
+        <div class="inset-div">
+            <p>
+                <strong>
+                  User stories:
+                </strong>
+            </p>
+            <div class="push-left">
+              <p>
+                    I can submit a FormData object that includes a file upload.
+              </p>
+            </div>
+            <div class="push-left">
+              <p>
+                     When I submit something, I will receive the file size in bytes within the JSON response
+              </p>
+            </div>
+        </div>
+        <p>
+          <strong>
+            Usage:
+          </strong>
+        </p>
+<pre>
+Submit a file on:<a href="https://stormy-journey-92815.herokuapp.com/api/whoami"></a>
+</pre>
+        <p>
+          <strong>
+            Example output:
+          </strong>
+        </p>
+<pre>
+{
+  ipaddress: "82.22.161.154",
+  language: "en-GB",
+  software: "Macintosh; Intel Mac OS X 10_11_6"
+}</pre>
+    </div>
+<% include ./partials/foot.html %>

@@ -1,0 +1,25 @@
+.padding {
+  padding: 1.5em;
+}
+
+.inset-div {
+  font-size: 1.4em;
+  margin: 1.5em 0;
+  padding: 1em;
+  border-left: 12px #ccc solid;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 7.5px;
+}
+
+.main-div {
+  margin: 1em 10%;
+}
+
+.push-left {
+  margin-left: 1.5em;
+}
+
+.form-margin {
+  margin: 1em 0.5em;
+}

@@ -1,0 +1,12 @@
+<% include ./partials/head.html %>
+<div class="col-xs-6 main-div">
+  <h1>Submit a file</h1>
+  <form name="FormData" action="/submit" method="POST" enctype="multipart/form-data">
+    
+    <label class="form-margin">Attach a file</label>
+    <input type="file" class="form-control-file form-margin" name="uploaded_file" />
+
+    <button type="submit" class="btn btn-primary form-margin">Submit</button>
+  </form>
+</div>
+<% include ./partials/foot.html %>
