@@ -1,0 +1,25 @@
+{
+  "name": "filesize",
+  "version": "1.0.0",
+  "description": "Submission for: https://www.freecodecamp.com/challenges/file-metadata-microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njmont/FCCFileMetadataMicroservice.git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "metadata",
+    "microservice"
+  ],
+  "author": "nathanJMonte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njmont/FCCFileMetadataMicroservice/issues"
+  },
+  "homepage": "https://github.com/njmont/FCCFileMetadataMicroservice#readme"
+}
