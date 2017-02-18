@@ -1,0 +1,41 @@
+<div class="padding main-div">
+    <h1>File Metadata Microservice</h1>
+    <div class="inset-div">
+        <p>
+            <strong>
+              User stories:
+            </strong>
+        </p>
+        <div class="push-left">
+          <p>
+                I can submit a FormData object that includes a file upload.
+          </p>
+        </div>
+        <div class="push-left">
+          <p>
+                When I submit something, I will receive the file size in bytes within the JSON response
+          </p>
+        </div>
+    </div>
+    <p>
+      <strong>
+        Usage:
+      </strong>
+    </p>
+<pre>
+Submit a file on:<a href="https://pacific-mountain-40280.herokuapp.com/submit">https://pacific-mountain-40280.herokuapp.com/submit</a>
+</pre>
+    <p>
+      <strong>
+        Example output:
+      </strong>
+    </p>
+<pre>
+{
+error: "Please provide a file."
+}
+{
+error: "Please provide a file."
+}
+</pre>
+</div>
