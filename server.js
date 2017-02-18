@@ -12,7 +12,8 @@ var bodyParser = require("body-parser");
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
-//Setup for public folder
+
+//Setup for public folder where scripts/stylesheets/fonts kept
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Body parser is needed to read values from submitted forms
@@ -20,6 +21,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+//Needed for port on heroku
 var port = process.env.PORT || 8080;
 app.listen(port, function() {
     console.log('Example app listening on port: ' + port + '!');
@@ -35,6 +37,7 @@ app.get("/submit", function(req, res, next) {
     res.render("submit", {});
 })
 
+//Post method for returning file size if file submitted or error if no file.
 app.post("/submit", upload.single("uploaded_file"), function(req, res, next) {
     "use strict";
     let return_json = {};
